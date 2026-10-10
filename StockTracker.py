@@ -44,5 +44,5 @@ def stock_portfolio():
             f.write(f"\nTotal Investment Value: ${total_investment}\n")
         print(f"Summary successfully saved to {filename}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     stock_portfolio()
